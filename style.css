@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: white;
+  padding: 20px;
+  direction: rtl;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.msg {
+  border: 1px solid #444;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  background: #2b2b3c;
+}
+.author {
+  font-weight: bold;
+  color: #62d6e8;
+  font-size: 1.2em;
+}
+.content {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+.time, .channel {
+  font-size: 0.85em;
+  color: #aaa;
+  margin-top: 7px;
+}
+.embed {
+  margin-top: 15px;
+  background: #3a3a4d;
+  padding: 15px;
+  border-left: 5px solid #7289da;
+  border-radius: 5px;
+}
+.embed-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #84b5ff;
+  margin-bottom: 8px;
+}
+.embed-desc, .embed-field, .embed-footer {
+  white-space: pre-wrap;
+  margin-bottom: 7px;
+}
+.embed-field strong {
+  color: #c9d1ff;
+}
+.embed-image, .embed-thumb {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
